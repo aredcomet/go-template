@@ -1,0 +1,5 @@
+.idea
+.env
+
+compose/pgdata
+bin

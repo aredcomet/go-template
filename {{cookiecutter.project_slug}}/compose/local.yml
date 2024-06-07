@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres
+    container_name: {{cookiecutter.project_name}}_postgres_local
+    env_file:
+      - ../../envs/{{cookiecutter.project_name}}/local.env
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
