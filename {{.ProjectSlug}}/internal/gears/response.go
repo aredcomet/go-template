@@ -1,9 +1,10 @@
 package gears
 
 import (
-	"github.com/gin-gonic/gin"
 	"net/http"
-	"{{cookiecutter.project_name}}/store/database"
+
+	"github.com/gin-gonic/gin"
+	"{{.ProjectName}}/store/database"
 )
 
 func HandleError(c *gin.Context, err error) {

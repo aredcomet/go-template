@@ -15,7 +15,7 @@ This is a simple Go template project that can be used to start a new project.
 
 ## Getting Started
 ```bash
-cp .env .env.local
+cp .env ~/Projects/envs/{{.ProjectName}}/local.env
 go mod tidy
 make runserver
 ```

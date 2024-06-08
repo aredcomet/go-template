@@ -1,13 +1,14 @@
 package auth
 
 import (
+	"time"
+
 	"github.com/gin-gonic/gin"
 	"github.com/jackc/pgx/v5/pgtype"
-	"time"
-	"{{cookiecutter.project_name}}/internal/hasher"
-	"{{cookiecutter.project_name}}/internal/jwttoken"
-	"{{cookiecutter.project_name}}/internal/middleware"
-	"{{cookiecutter.project_name}}/store/sqlq"
+	"{{.ProjectName}}/internal/hasher"
+	"{{.ProjectName}}/internal/jwttoken"
+	"{{.ProjectName}}/internal/middleware"
+	"{{.ProjectName}}/store/sqlq"
 )
 
 type LoginRequest struct {

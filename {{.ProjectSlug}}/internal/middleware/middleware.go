@@ -2,11 +2,12 @@ package middleware
 
 import (
 	"database/sql"
+	"strconv"
+
 	"github.com/gin-gonic/gin"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/sirupsen/logrus"
-	"strconv"
-	"{{cookiecutter.project_name}}/store/sqlq"
+	"{{.ProjectName}}/store/sqlq"
 )
 
 type Context struct {

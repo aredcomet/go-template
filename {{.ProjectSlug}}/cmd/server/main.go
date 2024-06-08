@@ -3,11 +3,12 @@ package main
 import (
 	"database/sql"
 	"log"
-	"{{cookiecutter.project_name}}/config"
-	"{{cookiecutter.project_name}}/internal/jwttoken"
-	"{{cookiecutter.project_name}}/internal/middleware"
-	"{{cookiecutter.project_name}}/pkg/auth"
-	"{{cookiecutter.project_name}}/store/database"
+
+	"{{.ProjectName}}/config"
+	"{{.ProjectName}}/internal/jwttoken"
+	"{{.ProjectName}}/internal/middleware"
+	"{{.ProjectName}}/pkg/auth"
+	"{{.ProjectName}}/store/database"
 
 	"github.com/gin-gonic/gin"
 	"github.com/jackc/pgx/v5/pgxpool"

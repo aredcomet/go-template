@@ -1,0 +1,8 @@
+{
+    "ProjectSlug": "MyProject",
+    "ProjectName": "my-project",
+    "JwtSecret": "changethis!",
+    "LogLevel": "info",
+    "SqlLogLevel": "info",
+    "DatabasePassword": "changethis!"
+}

@@ -1,7 +1,0 @@
-{
-    "project_name": "my-awesome-project",
-    "db_password": "secret",
-    "jwt_secret": "secret",
-    "log_level": "info",
-    "sql_log_level": "info"
-}

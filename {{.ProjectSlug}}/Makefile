@@ -1,4 +1,4 @@
-PROJECT_NAME={{cookiecutter.project_name}}
+PROJECT_NAME={{.ProjectName}}
 
 e ?= local.env
 
